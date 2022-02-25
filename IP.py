@@ -22,7 +22,7 @@ me = """
     """
 print(me)
 IPfromUSER = input('* OPTION IP Address : ')
-# Fatch Data From Url
+# Fetch Data From Url
 r = requests.get('http://ip-api.com/json/'+IPfromUSER)
 #Transfer text to json
 json_str =  r.content
